@@ -3,16 +3,15 @@ import React from 'react';
 
 const Category = () => {
     return (
-    <div className='aspect-square bg-neutral-50' >
+    <div className='aspect-square bg-neutral-50 dark:bg-transparent' >
         <Image
             width={256}
             height={256}
             src='/img/prueba.webp'
             alt=''
         />
-        <div className='flex justify-between p-4'>
+        <div className='flex justify-center p-4 dark:text-slate-200'>
         <strong>Nombre Categoria</strong>
-        <span>Cantidad</span>
         </div>
     </div>
     )
